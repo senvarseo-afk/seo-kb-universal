@@ -1,6 +1,6 @@
 # 17 本地 SEO 與 Google 商家檔案（Google Business Profile）
 
-> 版本：1.0 ｜ 更新日期：2026-11-03 ｜ 適用：所有 SEO 網站專案 ｜ 撰寫：Claude
+> 版本：1.0 ｜ 更新日期：2026-11-09 ｜ 適用：所有 SEO 網站專案 ｜ 撰寫：Claude
 
 ## 本章摘要
 
@@ -84,6 +84,8 @@
 **驗收方式**：每個專案建「因素 → 現況 → 行動」表。
 
 **常見錯誤**：預算花在引用量產卻沒選對主要類別；為「距離」租虛擬辦公室（直接違反政策）。
+
+**AI Mode 預約連結（2026-11-04，美國）**：Google 的 Robby Stein 宣布，AI Mode 的居家服務結果可直接連到 Angi、Thumbtack、Housecall Pro、Jobber 預約或詢價，ServiceTitan 之後加入。Housecall Pro 表示其用戶自動加入且不收導客費；Jobber 建議使用可預約的表單並持續累積評論。Google 未說明業者如何被選中，也未表示加入合作平台會影響推薦，不要把它當排名因素。台灣與其他地區目前沒有對應功能。來源：Search Engine Journal、Angi 新聞稿、Housecall Pro 說明頁（查閱 2026-11-08）。
 
 ---
 

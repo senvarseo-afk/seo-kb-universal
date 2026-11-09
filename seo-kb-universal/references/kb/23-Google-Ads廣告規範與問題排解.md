@@ -1,6 +1,6 @@
 # 23 Google Ads 廣告規範與問題排解
 
-> 版本：1.0 ｜ 更新日期：2026-11-05 ｜ 適用：使用 Google Ads 推廣網站或幫客戶投放的專案 ｜ 撰寫：Claude
+> 版本：1.0 ｜ 更新日期：2026-11-09 ｜ 適用：使用 Google Ads 推廣網站或幫客戶投放的專案 ｜ 撰寫：Claude
 
 ## 本章摘要
 
@@ -34,6 +34,7 @@
 | 著陸頁品質與速度 | 只寫與 Quality Score 的關係 | 05 §14、04 §11 |
 | AdSense、無效流量（發布者端） | 只寫導流到 AdSense 頁的廣告主端規範 | 09 §8、22 章 |
 | 聯盟揭露法規 | 不重寫 | 09 §9 |
+| Meta、TikTok 與其他廣告平台 | 不寫 | 26 章 |
 
 所有官方來源查閱日期：2026-11-04；2026-11-05 查證修正的項目以當日為準，§9 逐筆標註。
 
@@ -175,6 +176,8 @@ Circumventing systems 依地點或連線速度顯示不同語言 / 內容是允�
 | 酒精 | 2026-07-28 擴大的 29 國不含 TW，現行規定待查證 | https://support.google.com/adspolicy/answer/17230661 |
 | 政治 | 禁止以政黨、現任民選公職、各級候選人為內容的廣告 | https://support.google.com/adspolicy/answer/6014595 |
 
+**遠距醫療（2026-11-04 公告）**：Google 將於 2026-11 更新加拿大、英國、美國的醫療政策：通過美國藥事委員會聯合會（NABP）Healthcare Merchant Accreditation Program 認證的遠距醫療廣告主，可申請 Google Ads 遠距醫療認證，原有認證途徑保留。須先取得 NABP 認證，NABP 認證也不等於 Google 核准；申請要等政策頁更新後才開放。不涉及台灣（https://support.google.com/adspolicy/answer/18794834 ，查閱 2026-11-08）。
+
 ### 3.5 Editorial and technical 與 Destination requirements
 
 #### 3.5.1 編輯規範
@@ -222,7 +225,7 @@ Google **不限制把商標當關鍵字**，限制的是**廣告文字**使用�
 
 **為什麼**：廣告主端，主要為展示廣告而建的頁屬 Insufficient original content；發布者端，付費流量不違規，但無效流量、意外點擊是帳號層級風險（09 §8）。兩端都由 Google 判讀，一端出事常牽動另一端。
 
-**怎麼做**：付費流量頁不放滿版或黏著廣告；GA4 用 UTM 分開看付費流量的 AdSense Page CTR；異常就暫停活動。**發布者端的風險、監控與停權處理詳見 22 章。**
+**怎麼做**：付費流量頁不放滿版或黏著廣告；GA4 用 UTM 分開看付費流量的 AdSense Page CTR；異常就暫停活動。**發布者端的風險、監控與停權處理詳見 22 章；其他廣告平台對這類頁面的限制見 26 §2.1。**
 
 ### 3.9 Policy change log：2025–2026 重要變動
 
@@ -337,6 +340,8 @@ Google **不限制把商標當關鍵字**，限制的是**廣告文字**使用�
 ### 5.3 關鍵字比對類型與否定關鍵字
 
 **規範**：品牌與核心字用完全比對；探索用詞組或廣泛比對（搭配 Smart Bidding）；每週從 Search terms 加否定字；建帳號層級否定清單。
+
+**報表欄位（2026-11-04 Ads Liaison 說明）**：「Search terms match type (Keywords)」對應關鍵字分頁的區隔；「Search terms match type」對應搜尋字詞分頁的比對類型欄。目前 Report Editor 要同時加入「Search term」欄，後者才會列出包含 AI Max 在內的全部比對類型，Google 表示會修正（Search Engine Roundtable 轉載：https://www.seroundtable.com/google-ads-search-terms-match-type-keywords-42463.html）。
 
 **為什麼**：完全比對含同義近似變體；**否定關鍵字不比對近似變體**，同義詞、單複數要自己列；大小寫與拼字錯誤系統自動處理，不必另加；帶重音符號的字算不同否定字（https://support.google.com/google-ads/answer/2453972 、https://support.google.com/google-ads/answer/7478529 ）。
 

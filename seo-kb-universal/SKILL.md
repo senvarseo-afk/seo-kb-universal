@@ -1,9 +1,9 @@
 ---
 name: seo-kb-universal
-description: "SEO 知識庫執行器，內含 25 章規範、狀況解法手冊、台灣市場速查、通用市場評估框架、AdSense 與 Google Ads 規範，用來啟動網站專案、稽核網站、診斷流量問題、評估新市場與審稿。只要任務碰到 SEO、網站上線或改版、流量下降、Google Search Console、AdSense、Discover、AEO、GEO、AI Overviews、hreflang 多語言、台灣市場、繁體中文 SEO、海外市場評估、內容站、流量站、程序化 SEO、關鍵字與標題、結構化資料、Core Web Vitals，即使使用者沒有說「知識庫」或「SEO」，也要用這個 skill，先查知識庫再回答並標明章節。Use for any SEO, site audit, traffic drop, AdSense or AI search task."
+description: "SEO 知識庫執行器，內含 26 章規範、狀況解法手冊、台灣市場速查、通用市場評估框架、AdSense、Google Ads 與社群廣告規範，用來啟動網站專案、稽核網站、診斷流量問題、評估新市場與審稿。只要任務碰到 SEO、網站上線或改版、流量下降、Google Search Console、AdSense、Facebook / Instagram / TikTok 投廣、廣告帳號停權、Discover、AEO、GEO、AI Overviews、hreflang 多語言、台灣市場、繁體中文 SEO、海外市場評估、內容站、流量站、程序化 SEO、關鍵字與標題、結構化資料、Core Web Vitals，即使使用者沒有說「知識庫」或「SEO」，也要用這個 skill，先查知識庫再回答並標明章節。Use for any SEO, site audit, traffic drop, AdSense or AI search task."
 metadata:
   version: "1.0.0"
-  kb_version: "1.5-universal (2026-11-06)"
+  kb_version: "1.6-universal (2026-11-09)"
 ---
 
 # SEO 知識庫執行器
@@ -19,7 +19,7 @@ metadata:
 1. **先讀再答**：先用 `kb_lookup.py` 抓對應小節，再回答；不要憑記憶回答知識庫已涵蓋的問題。讀 `00-快速啟動指南.md` 的對應段落（§2 閱讀路徑、§4 數值速查、§6 症狀表）通常就能定位。
 2. **註明出處**：回答寫明章節與小節，例如「依 04 §5」「12 H5」。
 3. **分清證據等級**：知識庫把內容分成官方證實、社群共識（標「社群主張」）、待查證。輸出時保留這個標示，不把社群主張講成確定機制。
-4. **時效**：內容查證至 2026-11-06。政策、門檻、工具功能類內容若距今超過 90 天，先用可用的網路工具查證官方來源；無法查證時要明說這是當時的內容。
+4. **時效**：內容查證至 2026-11-09。政策、門檻、工具功能類內容若距今超過 90 天，先用可用的網路工具查證官方來源；無法查證時要明說這是當時的內容。
 5. **遇到知識庫沒有的狀況**：解決後依第 12 章的結構（症狀、可能原因、診斷步驟、解法、預防、預估恢復時間、證據等級）整理給使用者。只有使用者要求時才修改 `references/kb/`。
 
 ## 子指令路由

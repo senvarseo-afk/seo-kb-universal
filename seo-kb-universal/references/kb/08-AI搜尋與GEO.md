@@ -1,6 +1,6 @@
 # 08 AI 搜尋與 GEO（生成式引擎優化）
 
-> 版本：1.3 ｜ 更新日期：2026-11-05 ｜ 適用：所有 SEO 網站專案 ｜ 撰寫：Claude（§4.5 整合 Grok 社群觀點與 Codex 2026 年 Reddit 討論查證）
+> 版本：1.3 ｜ 更新日期：2026-11-09 ｜ 適用：所有 SEO 網站專案 ｜ 撰寫：Claude（§4.5 整合 Grok 社群觀點與 Codex 2026 年 Reddit 討論查證）
 
 ## 本章摘要
 
@@ -59,6 +59,20 @@
 | Conductor（2026-05-20 至 06-20，1,610 萬次美國搜尋，672 個 Publishing 網域的查詢集） | Publishing 類搜尋 41.3% 出現 AIO | 2026-11-05（https://www.conductor.com/academy/2026-publishing-ai-search-benchmarks/） |
 
 解讀：不同工具的關鍵字樣本差異很大（追蹤集偏向高量資訊詞），所以「比例」本身不可比，**可比的是方向**：資訊型／長尾／How-to／定義型查詢是 AIO 重災區；交易型、導航型、本地型相對安全。流量站以資訊型內容為主，受影響最深。
+
+### 1.4 2026-11 介面觀察（未確認全面上線）
+
+以下都是第三方觀察或 Google 主管的社群貼文，不是官方文件，出現頻率與地區不明（查閱 2026-11-08）。
+
+| 日期 | 變化 | 對網站的意義 | 來源 |
+|---|---|---|---|
+| 2026-11-02 | 多個品牌字查詢的 AI Overviews 從主欄移到桌機右側欄，也就是知識面板的位置 | 品牌自家結果在主欄可能更顯眼，但 AI 對品牌的描述仍很醒目，要定期檢查描述是否正確（21 §6） | https://www.seroundtable.com/google-ai-overviews-brands-right-42440.html |
+| 2026-11-04 | 美國 AI Mode 的居家服務結果加入預約連結，合作方為 Angi、Thumbtack、Housecall Pro、Jobber，ServiceTitan 之後加入 | AI Mode 從研究延伸到下單，見 17 §2 | Robby Stein X 貼文；Search Engine Journal、Angi 新聞稿 |
+| 2026-11-04 | 單一查詢的 AI Mode 回答出現 4 則廣告 | 觀察者也不確定是否為新行為；商業查詢的自然引用可能被往下擠 | https://www.seroundtable.com/google-ai-mode-four-ads-42443.html |
+| 2026-11-06 | AI Mode 出現「continue with this search」提示，並推使用者開啟 Personal Intelligence | 個人化程度提高，抽測 AI 結果時要記錄帳號狀態、地區與對話脈絡（21 §7.5） | https://www.seroundtable.com/google-ai-mode-continue-with-this-search-42475.html、https://www.seroundtable.com/google-personal-intelligence-popup-42468.html |
+| 2026-11 | 有人回報 Google 測試從搜尋框移除 AI Mode 按鈕，報導者本人無法重現 | 入口位置在實驗中，不代表 AI Mode 停用 | https://www.seroundtable.com/google-removing-ai-mode-42436.html |
+
+**怎麼用**：這些變化影響的是版面與點擊，不是排名。流量變動時，先拆分「排名掉」與「有曝光沒點擊」（08 §9），不要直接歸因到某個介面測試。
 
 ---
 

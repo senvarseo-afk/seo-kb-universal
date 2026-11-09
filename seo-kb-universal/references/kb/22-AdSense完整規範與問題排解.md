@@ -1,6 +1,6 @@
 # 22 AdSense 完整規範與問題排解
 
-> 版本：1.1 ｜ 更新日期：2026-11-05 ｜ 適用：所有使用 AdSense 的網站 ｜ 撰寫：Claude
+> 版本：1.1 ｜ 更新日期：2026-11-09 ｜ 適用：所有使用 AdSense 的網站 ｜ 撰寫：Claude
 
 ## 本章摘要
 
@@ -414,7 +414,7 @@ Better Ads Standards 已是 Publisher Policies 的一部分；違規格式清單
 - 廣告主端：Google Ads 的 Insufficient original content 政策把「以 arbitrage 等方式導流到廣告多於原創內容、幾乎沒有原創內容或廣告過多的目的地」列為拒登例子（https://support.google.com/adspolicy/answer/16427718 ，查閱 2026-11-04）；用 Google Ads 導流到 AdSense 頁同時受兩邊政策約束。
 - AFS：流量從你可控制的來源（含合作聯播網、服務或聯盟）進入 Related search for content pages 時，須傳 referrerAdCreative（§1.9）。
 
-**怎麼做**：社群自然分享（Facebook 社團、Messenger）可以；FB / TikTok 廣告推內容頁時，到達頁廣告密度降到最低、關閉 vignette 測試；每個付費活動用 UTM 並在 AdSense 報表比對該期間 CTR 與無效流量扣款。
+**怎麼做**：社群自然分享（Facebook 社團、Messenger）可以；FB / TikTok 廣告推內容頁時，到達頁廣告密度降到最低、關閉 vignette 測試；每個付費活動用 UTM 並在 AdSense 報表比對該期間 CTR 與無效流量扣款。Meta、TikTok 等平台對廣告比例過高頁面的限制見 26 §2.1。
 
 **驗收方式**：付費活動期間 Page CTR 不高於自然流量基線 2 倍（經驗值）；無扣款。
 
